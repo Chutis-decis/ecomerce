@@ -1,8 +1,10 @@
-
+import '../../css/app.css'
 
 const Header = () => {
     return(
-        <h2 className="text-end">yo soy heder</h2>
+        <header className="py-5">
+            <h1 className="text-center">Tienda <span className="text-primary">Muebles</span></h1>
+        </header>
     )
 }
 
