@@ -1,8 +1,10 @@
 
-
+import '../../css/app.css'
 
 const Hero = () => {
     return(
-        <h1>Hero</h1>
+        <div className="hero"></div>
     )
 }
+
+export default Hero 

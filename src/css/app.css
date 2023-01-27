@@ -30,3 +30,17 @@ h1{
     color: var(--bs-blue)!important;    
 }
 
+/* Hero es la imagen */
+.hero{
+    background-image: url(../img/fondo.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px){
+    .hero{
+        height: 55rem;
+
+    }
+}
