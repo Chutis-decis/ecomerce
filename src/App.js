@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Navss from './components/navegacion/Navss'
 import Grid from './components/grid/Grid'
+import Foot from './components/footer/Foot'
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Navss />
       <Hero />
       <Grid />
+      <Foot />
     </div>
   );
 }
