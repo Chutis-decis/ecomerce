@@ -1,9 +1,9 @@
-import image1 from '../img/sillon.jpg'
-import image2 from '../img/pantalla.jpg'
-import image3 from '../img/sala.jpg'
-import image4 from '../img/comedor.jpg'
-import image5 from '../img/cama.jpg'
-import image6 from '../img/bancas.jpg'
+import image1 from '../img/grid/sillon.jpg'
+import image2 from '../img/grid/pantalla.jpg'
+import image3 from '../img/grid/sala.jpg'
+import image4 from '../img/grid/comedor.jpg'
+import image5 from '../img/grid/cama.jpg'
+import image6 from '../img/grid/bancas.jpg'
 const Grid = () => {
     return (
         <main className="container-xl py-5">
@@ -57,7 +57,7 @@ const Grid = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 mb-4">
                 <div className="card">
                         <img src={image5} alt="imgen producto" />
                         <div className='card-body text-center bg-primary text-white p-5'>
@@ -68,7 +68,7 @@ const Grid = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 mt-4">
+                <div className="col-md-4">
                 <div className="card">
                         <img src={image6} alt="imgen producto" />
                         <div className='card-body text-center bg-primary text-white p-5'>
