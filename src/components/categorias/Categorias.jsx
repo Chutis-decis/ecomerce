@@ -4,8 +4,8 @@ import hogar from '../img/categoria/hogar.jpg'
 
 const Categorias = () => {
     return(
-        <div className="container-xl py-5">
-            <h2 className="text-center my-5 ">
+        <div className="container-xl ">
+            <h2 className="text-center mb-5">
                 Categorias de Productos
             </h2>
             <div className="row">
